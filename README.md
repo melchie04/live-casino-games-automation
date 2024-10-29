@@ -1,16 +1,14 @@
-# My Personal Website - Melchor Callos
-Welcome to My Personal Website! This website is a showcase of my work in automation testing and website development. Here, you'll find a collection of my projects, each demonstrating my expertise in creating functional and user-friendly web solutions. Whether you're interested in exploring my automation testing scripts or the various websites I've developed, this site provides a comprehensive look at my skills and accomplishments. Feel free to browse through the different sections, and don't hesitate to reach out if you have any questions or collaboration ideas. I'm always open to new opportunities and discussions.
+# Live Casino Games Automation
+Welcome to the Live Casino Games Automation! This project focuses on automating the testing of live casino games across both desktop and mobile platforms. The primary goal is to ensure a seamless and reliable gaming experience through comprehensive automated testing. These tests are conducted daily to maintain the highest quality standards for the games.
 
 <img src="https://github.com/melchie04/live-casino-games/blob/main/assets/image.jpg?raw=true" alt="Live Casino Games Automation" width="600"/>
 
 #
 ### 🧰 Tools I've Used:
-![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![image](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![image](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![image](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white)
+![image](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white)
+![image](https://img.shields.io/badge/Appium-EE376D?style=for-the-badge&logo=Appium&logoColor=white)
+![image](https://img.shields.io/badge/Cucumber-43B02A?style=for-the-badge&logo=cucumber&logoColor=white)
+![image](https://img.shields.io/badge/apache_maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 
 #
 ### 📧 If you find any bugs on the website, please contact me here:
@@ -24,21 +22,18 @@ Welcome to My Personal Website! This website is a showcase of my work in automat
 
 #
 ### 📁 Installation:
-To use My Personal Website, follow these steps:
+To set up the Live Casino Games Automation project, follow these steps::
 1. Clone the Repository
 ```bash
 git clone https://github.com/username/repository-name.git
 ```
-2. Navigate to the Project Directory
-```bash
-cd repository-name
-```
+2. Open the Project in IntelliJ IDEA
 3. Install Dependencies
-```bash
-npm install
-```
-4. Run the Development Server
-```bash
-npm run dev
-```
+   * Ensure you have Maven installed. If not, you can download it from [Maven's official website](https://maven.apache.org/install.html).
+   * In IntelliJ IDEA, open the pom.xml file. IntelliJ will prompt you to import the Maven project. Click on "Import Changes" to download the dependencies.
+5. Set Up Appium (for mobile automation testing only)
+   * Download and install Appium from [Appium's official website](https://appium.io/docs/en/latest/).
+   * Start the Appium server.
+6. Run the Tests
+   * In IntelliJ IDEA, right-click on the Runner class and select Run to execute your tests.
 
