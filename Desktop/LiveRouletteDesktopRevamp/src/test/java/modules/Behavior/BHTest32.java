@@ -26,18 +26,19 @@ public class BHTest32 {
         );
 
         EventHandler.scroll(XPath.GameTable.JumpTable.YouAreHere);
+        String tableInitial = Variables.tableName.split(" ")[1];
 
         CustomAssert.assertEquals(
                 "BH Test 32",
-                "Table " + Variables.tableName.split(" ")[1],
+                "Table " + tableInitial,
                 GetHandler.getText(XPath.GameTable.JumpTable.ActiveTableName),
-                "The selected table " + Variables.tableName.split(" ")[1] + " is highlighted.",
-                "The selected table " + Variables.tableName.split(" ")[1] + " is not highlighted."
+                "The selected table " + tableInitial + " is highlighted.",
+                "The selected table " + tableInitial + " is not highlighted."
         );
 
         VerificationHandler.verifyIfDisplayed(
                 "BE Test 32",
-                XPath.GameTable.JumpTable.getBetIndicator("Table " + Variables.tableName.split(" ")[1]),
+                XPath.GameTable.JumpTable.getBetIndicator("Table " + tableInitial),
                 5,
                 "displayed when there is a confirmed bet"
         );

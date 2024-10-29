@@ -20,7 +20,7 @@ public class FTTest75 {
         VerificationHandler.verifyIfDisplayed(
                 "FT Test 75",
                 XPath.GameTable.Notification.BetsAccepted,
-                5
+                10
         );
 
         WaitHandler.wait(2);

@@ -17,8 +17,8 @@ public class BHTest1 {
                 "BH Test 1",
                 GetHandler.getText(XPath.GameLobby.SideMenu.ActiveSideMenuOption),
                 "Baccarat",
-                "The selected Roulette tab is highlighted.",
-                "The selected Roulette tab is not highlighted."
+                "The selected Baccarat tab is highlighted.",
+                "The selected Baccarat tab is not highlighted."
         );
 
         System.out.println();

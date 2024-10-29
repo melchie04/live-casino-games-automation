@@ -3,7 +3,6 @@ package modules.Behavior;
 import globals.Variables;
 import locators.XPath;
 import utilities.enums.HandleCollection;
-import utilities.handlers.EventHandler;
 import utilities.handlers.GetHandler;
 import utilities.handlers.WaitHandler;
 import utilities.objects.CustomAssert;
@@ -54,7 +53,6 @@ public class BHTest34 {
             verifyCounter("Total Counter", Variables.allCounters[3], actualAllRoundCounters[3]);
 
             System.out.println();
-            EventHandler.click(XPath.GameTable.NavBar.Back);
 
         }
     }

@@ -88,7 +88,7 @@ public class ClickSteps {
             // ? Jump Table Window of the Game Table Page
             case "The Close Button Within The Jump Table Window In The Game Table" -> EventHandler.click(XPath.GameTable.JumpTable.Close);
             case "The Other Table Within The Jump Table Window In The Game Table" -> EventHandler.click(XPath.GameTable.JumpTable.getTableCard("Table " + Helper.getLastChar(Variables.tableName)), HandleCollection.WithScroll);
-            case "The Other Product Within The Jump Table Window In The Game Table" -> EventHandler.click(XPath.GameTable.JumpTable.TabMenu.Roulette, 1);
+            case "The Other Product Within The Jump Table Window In The Game Table" -> EventHandler.click(XPath.GameTable.JumpTable.TabMenu.Roulette, 2);
             case "The Other Product Table Within The Jump Table Window In The Game Table" -> EventHandler.click(XPath.GameTable.JumpTable.getTableCard("Table " + Helper.getLastChar(Variables.tableName)), HandleCollection.WithScroll);
             // ? Tool Bar of the Game Table Page
             case "The Edit Chips Button In The Game Table" -> EventHandler.click(3, XPath.GameTable.ToolBar.EditChips);

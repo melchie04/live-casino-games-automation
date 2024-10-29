@@ -73,6 +73,7 @@ public class VerifySteps {
             case "The Betting Timer In The Game Table" -> BHTest35.verify();
             case "The Dealing Text In The Game Table" -> BHTest36.verify();
             case "The Result Panel In The Game Table" -> BHTest37.verify();
+            // ? Tool Bar of the Game Table Page
             case "The Chip Settings Panel In The Game Table When Saving It With Nothing Changes" -> BHTest38.verify();
             case "The Chip Settings Panel In The Game Table When Adding Chip With Four Chips Already Present" -> BHTest39.verify();
             case "The Chip Settings Panel In The Game Table When Saving It With Only Three Chips Present" -> BHTest40.verify();
@@ -137,7 +138,7 @@ public class VerifySteps {
             case "The Payout Tab Within The Limits & Payouts Panel In The Game Table" -> FTTest26.verify();
             case "The Bet Limit Tab Within The Limits & Payouts Panel In The Game Table" -> FTTest27.verify();
             case "The Limits & Payouts Button In The Game Table After Re-clicked" -> FTTest28.verify();
-            case "The Table Limit Button In The Game Table" -> FTTest29.verify();
+            case "The User Setting Panel In The Game Table" -> FTTest29.verify();
             case "The Other Table Limit Within The Table Limit Panel In The Game Table" -> FTTest30.verify();
             case "The Announcement Button In The Game Table" -> FTTest31.verify();
             case "The Close Button Within The Announcement Modal In The Game Table" -> FTTest32.verify();

@@ -87,7 +87,11 @@ public class NavigationSteps {
     @And("I Enter The Selected Game Table")
     public void iEnterTheSelectedGameTable() {
         // Go to game table page
-        Navigator navigator = () -> EventHandler.click(XPath.GameLobby.Content.getTable(Variables.tableName), 1);
+        Navigator navigator = () -> {
+            EventHandler.click(XPath.GameLobby.Content.getTable(Variables.tableName), 1);
+            WaitHandler.waitUrlContains("/rouletteDesktop", 5);
+            WaitHandler.waitVisibility(XPath.GameTable.NavBar.TableName, 5);
+        };
         retrySteps(navigator, "Enter The Selected Game Table.");
     }
 

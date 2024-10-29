@@ -74,6 +74,7 @@ public class VerifySteps {
                  "The Total Counter In The Game Table Matches The Number Of Deals In The Game Lobby" -> BHTest36.verify();
             case "The Commission / Non-Commission Button In The Game Table After Clicked",
                  "The Commission / Non-Commission Button In The Game Table After Re-clicked" -> BHTest37.verify();
+            // ? Tool Bar of the Game Table Page
             case "The Chip Settings Panel In The Game Table When Saving It With Nothing Changes" -> BHTest38.verify();
             case "The Chip Settings Panel In The Game Table When Adding Chip With Four Chips Already Present" -> BHTest39.verify();
             case "The Chip Settings Panel In The Game Table When Saving It With Only Three Chips Present" -> BHTest40.verify();

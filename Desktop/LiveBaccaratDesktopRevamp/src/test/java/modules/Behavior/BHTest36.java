@@ -2,7 +2,6 @@ package modules.Behavior;
 
 import globals.Variables;
 import locators.XPath;
-import utilities.handlers.EventHandler;
 import utilities.handlers.GetHandler;
 import utilities.objects.CustomAssert;
 
@@ -51,7 +50,6 @@ public class BHTest36 {
             );
 
             System.out.println();
-            EventHandler.click(XPath.GameTable.NavBar.Back);
 
         }
 

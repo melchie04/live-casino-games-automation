@@ -39,13 +39,13 @@ public class FTTest67 {
         EventHandler.click(XPath.GameTable.NavBar.Back);
     }
 
-
     public static int getChipValue(WebElement chip) {
-        String chipText = chip.getText().replace("+","");
-        if (chipText.endsWith("K"))
-            return Integer.parseInt(chipText.replaceAll("[^0-9.-]+", "")) * 1000;
-        else if (chipText.endsWith("M"))
-            return Integer.parseInt(chipText.replaceAll("[^0-9.-]+", "")) * 1000000;
+        String chipText = chip.getText().toLowerCase().replace("+","");
+        if (chipText.endsWith("k")) {
+            return (int) (Double.parseDouble(chipText.replace("k", "")) * 1000);
+        } else if (chipText.endsWith("m")) {
+            return (int) (Double.parseDouble(chipText.replace("m", "")) * 1000000);
+        }
         return switch (chipText) {
             case "1" -> 1;
             case "5" -> 5;

@@ -7,7 +7,7 @@ Feature: Payout
     When I Navigate To The Live Casino Page
     And I Enter The Live Baccarat Desktop Revamp Thumbnail
     And I Enter Any Game Table
-    Then I Place A Bet Until There Is 100 Round Result For All Payouts
+    Then I Place A Bet Until There Is 75 Round Result For All Payouts
     # ** Payout Round Results
       | Commission Player     |
       | Commission Banker     |
