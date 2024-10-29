@@ -20,7 +20,7 @@ This is an automated testing script for the Live Baccarat Desktop Revamp, design
 
 - Version 1.0: Initial Version -> Initial automation test script
 - Version 1.1: Duration Version -> Improve test efficiency to optimize test execution
-- Version 2.0: Announcement Version -> New update for the additional announcement feature of the Mobile Revamp
+- Version 2.0: Announcement Version -> New update for the additional announcement feature of the Live Casino Revamp
 
 ## Test Case Modules
 

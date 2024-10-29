@@ -19,7 +19,7 @@ This is an automated testing script for the Live Sic Bo Desktop Revamp, designed
 ## Project Versions
 
 - Version 1.0: Initial Version -> Initial automation test script
-- Version 2.0: Announcement Version -> New update for the additional announcement feature of the Mobile Revamp
+- Version 2.0: Announcement Version -> New update for the additional announcement feature of the Live Casino Revamp
 
 ## Test Case Modules
 
