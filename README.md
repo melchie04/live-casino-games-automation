@@ -5,10 +5,10 @@ Welcome to the Live Casino Games Automation! This project focuses on automating 
 
 #
 ### 🧰 Tools I've Used:
-![image](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white)
-![image](https://img.shields.io/badge/Appium-EE376D?style=for-the-badge&logo=Appium&logoColor=white)
-![image](https://img.shields.io/badge/Cucumber-43B02A?style=for-the-badge&logo=cucumber&logoColor=white)
-![image](https://img.shields.io/badge/apache_maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white)
+![Appium](https://img.shields.io/badge/Appium-EE376D?style=for-the-badge&logo=Appium&logoColor=white)
+![Cucumber](https://img.shields.io/badge/Cucumber-43B02A?style=for-the-badge&logo=cucumber&logoColor=white)
+![Apache Maven](https://img.shields.io/badge/apache_maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 
 #
 ### 📧 If you find any bugs on the website, please contact me here:
