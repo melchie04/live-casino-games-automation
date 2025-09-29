@@ -22,7 +22,7 @@ Welcome to the Live Casino Games Automation! This project focuses on automating 
 
 #
 ### 📁 Installation:
-To set up the Live Casino Games Automation project, follow these steps::
+To set up the Live Casino Games Automation project, follow these steps:
 1. Clone the Repository
 ```bash
 git clone https://github.com/username/repository-name.git
